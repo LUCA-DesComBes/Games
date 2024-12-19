@@ -1,0 +1,65 @@
+main {
+	position: relative;
+}
+.container-clicker {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	align-items: center;
+}
+img[alt="logo-clicker"] {
+	cursor: pointer;
+	height: 300px;
+	width: 300px;
+	border-radius: 24px;
+}
+#logo-click {   
+    background-color: transparent;
+    border: none;
+}
+#logo-click:active {
+    transform: scale(1.1);
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 64px 0 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    height: 100vh;
+    overflow-y: scroll;
+    width: 15vw;
+    display: none;
+}
+.money-bag {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 8rem;
+    border: none;
+    background-color: transparent;
+}
+.money-bag:hover {
+    transform: scale(1.2);
+}
+h3 {
+    cursor: pointer;
+    margin-bottom: 32px;
+    font-size: 32px;
+}
+.counter {
+	font-weight: 700;
+	font-size: 48px;
+}
+.add-number, .add-number-ten, .add-number-mille {
+    cursor: pointer;
+    padding: 16px;
+    border: none;
+    border: black 1px solid;
+    border-radius: 12px; 
+    background: #0101ff;
+}
